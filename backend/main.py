@@ -7,7 +7,7 @@ def home():
     return "Homepage here!"
 
 @app.route('/about/')
-def home():
+def about():
     return "Website content goes here!"
 
 if __name__ == "__main__":
